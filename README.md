@@ -1,1 +1,1 @@
-# ib002-07-tester
+Everything important is inside the source code
