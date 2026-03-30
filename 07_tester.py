@@ -4,9 +4,13 @@ from cesta_k_suboru import check_leaf_depth, check_left_align,
 
 """
 Nezabudnite napisat realnu cestu k suboru v importe.
+
 Na vykreslenie stromu pouzite napr.
     dot -Tpng 07_failed_trees\\tree_xyz.dot -o tree.png
 Pozor, musite mat nainstalovany program dot.
+
+Ak nefunguje os.makedir, rucne vytvorte adresar '07_failed_trees' a
+nastavte si ho ako bezny (z kade budete spustat program).
 """
 
 DEPTH_FAILED = 0
